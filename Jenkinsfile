@@ -1,4 +1,4 @@
-node (' master') { 
+node ('built-in') { 
   checkout scm 
   stage(' Build') { 
     withMaven( maven: 'maven-3.8.6') { 
